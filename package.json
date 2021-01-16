@@ -1,16 +1,16 @@
 {
-  "name": "nestjs-example",
+  "name": "school-portal-api",
   "version": "0.0.1",
-  "description": "nestjs example integrated with prisma and keycloak",
+  "description": "mscan school portal api",
   "private": true,
   "keywords": [
-    "nestjs-example",
+    "school-portal-api",
     "nestjs",
     "example"
   ],
-  "homepage": "https://github.com/clayrisser/nestjs-example",
+  "homepage": "https://github.com/clayrisser/school-portal-api",
   "bugs": {
-    "url": "https://github.com/clayrisser/nestjs-example/issues",
+    "url": "https://github.com/clayrisser/school-portal-api/issues",
     "email": "email@clayrisser.com"
   },
   "license": "MIT",
@@ -25,7 +25,7 @@
   "main": "dist/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/clayrisser/nestjs-example"
+    "url": "https://github.com/clayrisser/school-portal-api"
   },
   "scripts": {
     "build": "make -s build",
