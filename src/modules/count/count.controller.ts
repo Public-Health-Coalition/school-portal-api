@@ -7,14 +7,14 @@ import { SessionData } from '~/types';
 @Controller('count')
 export class CountController {
   @Get()
-  @Public()
-  @Scopes('hello', 'world', 'yip', 'yap')
+  // @Public()
+  // @Scopes('hello', 'world', 'yip', 'yap')
   @Render('index')
   getRoot() {
     return { message: 'Hello, world!' };
   }
 
-  @Roles('admin')
+  // @Roles('admin')
   @Get('/count')
   getCount(@Req() _req: Request, @Session() session: SessionData): number {
     session.count = ++session.count || 0;
